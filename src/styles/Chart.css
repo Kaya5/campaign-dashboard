@@ -1,0 +1,16 @@
+.Chart{
+    margin-left: 1%;
+    margin-top: 2%;
+    min-width: auto;
+}
+
+
+.column{
+    height: 500%;
+}
+
+@media only screen and (max-width: 1200px){
+   .Chart{
+   max-width: 100% !important;
+   }
+}

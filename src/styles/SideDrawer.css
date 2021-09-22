@@ -1,0 +1,244 @@
+.sideDrawer{
+    height: 100%;
+    background: white;
+    padding-left: 8px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;  
+    width: 70%;
+    max-width: 280px;
+    z-index: 200;
+}
+
+.sideDrawer div:hover{
+        cursor: pointer;
+        color: rgb(62, 99, 167);
+}
+
+.topLine{
+    display: flex;
+}
+
+.miniMenu{
+    margin-left: 30%;
+    margin-top: 9%;
+    font-size: 1.3rem;
+}
+
+.foodle{
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: px;
+    font-size: 1.4rem;
+    margin-left: 10%;
+    color: rgb(2, 88, 122);
+    font-family: 'Kanit';
+}
+.foodleBall{
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.drawerMenu{
+    font-size: 0.7rem;
+    margin-bottom: 1.3%;
+    font-weight: 600;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.dashFill{
+    height: 44px;
+    background: rgb(234, 243, 250);
+    margin-left: 0.5%;
+    margin-right: 3%;
+    padding-top: 10px;
+    border-radius: 4.5px;
+    
+}
+
+.drawerDash{
+    margin-left: 25px;
+    margin-bottom: 13px;
+    color: rgb(26, 58, 199);
+    background: content-box;
+    margin-right: 3%;
+}
+.layout{
+    margin-left: 27px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+    margin-right: 3%;
+}
+
+.calender{
+    margin-left: 27px;
+    margin-right: 3%;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.chat{
+    margin-right: 3%;
+    margin-left: 23px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.ecommItem{
+    margin-right: 3%;
+    margin-left: 22px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.emailItem{
+    margin-right: 3%;
+    margin-left: 26px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.invoiceItem{
+    margin-right: 3%;
+    margin-left: 28.5px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+.contactItem{
+    margin-right: 3%;
+    margin-left: 26px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.authItem{
+    margin-right: 3%;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.utility{
+    margin-right: 3%;
+    margin-left: 28px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.ui{
+    margin-right: 3%;
+    margin-left: 21px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.forms{
+    margin-right: 3%;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.tableItem{
+    margin-right: 3%;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+
+.chartItem{
+    margin-right: 3%;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-size: 0.9rem;
+}
+.sideIcon{
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.dashButton{
+    margin-left: 35%;
+    background: rgb(73, 100, 219);
+    border: none;
+    border-radius: 10px;
+    width: 28px;
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+    font-family: serif;
+}
+
+.chatButton{
+    background: goldenrod;
+    border: none;
+    border-radius: 9px;
+    margin-left: 51%;
+    font-weight: 700;
+    color: white;
+    font-size: 11px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.formButton{
+    background: rgb(44, 142, 199);
+    border: none;
+    border-radius: 10px;
+    margin-left: 50%;
+    font-weight: 700;
+    font-family: monospace;
+    color: white;
+    font-size: 11px;
+}
+
+.layouts{
+    margin-left: 47%;
+    font-size: 0.6rem;
+}
+.ecomm{
+    margin-left: 36%;
+    font-size: 0.6rem;
+}
+
+.email{
+    margin-left: 53%;
+    font-size: 0.6rem;
+}
+
+.invoices{
+    margin-left: 47%;
+    font-size: 0.6rem;
+}
+
+.contacts{
+    margin-left: 46%;
+    font-size: 0.6rem;
+}
+
+.auth{
+    margin-left: 30%;
+    font-size: 0.6rem;
+}
+
+.util{
+    margin-left: 54%;
+    font-size: 0.6rem;
+}
+ 
+.elements{
+    margin-left: 35%;
+    font-size: 0.6rem;
+}
+
+.tables{
+    margin-left: 52%;
+    font-size: 0.6rem;
+}
+
+.charts{
+    margin-left: 51%;
+    font-size: 0.6rem;
+}

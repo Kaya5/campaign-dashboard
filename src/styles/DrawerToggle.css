@@ -1,0 +1,23 @@
+.toggleButton{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.toggleButton:focus{
+    outline: none;
+}
+.openButton{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+

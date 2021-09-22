@@ -1,0 +1,292 @@
+.rectangleContainer{
+    font-family: 'IBM Plex Sans', sans-serif;    
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100%;
+    margin-left: 1.5%;
+    display: flex; 
+    margin-top: 8%;
+}
+
+body{
+    font-size: 14px;
+}
+.miniChartIconBlue{
+    margin-left: 85%;
+   display: flex;
+   margin-top: -7%;
+   margin-bottom: 8px;
+   font-size: 1rem;
+   color: rgb(43, 153, 226);
+}
+
+.miniChartIconYellow{
+    margin-left: 85%;
+   display: flex;
+   margin-top: -7%;
+   margin-bottom: 8px;
+   color: rgb(216, 216, 55);
+   font-size: 1rem;
+}
+
+
+.lineChart{
+    margin-top: -29%;
+    display: block;
+    color: yellow;
+    width: 90%;
+    height: 25%;
+}
+
+
+
+
+.rectangle{
+    width: 23%;
+    margin-right: 1%;
+    margin-top: -8%;
+  height: 100%;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
+  background: white;
+}
+
+.amount{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.orderProgress{
+    margin-left: 73%;
+    margin-top: -9px;
+    height: 23px;
+    float: inline-end;
+    justify-content: flex-end;
+}
+
+
+
+.orderProgressBlue{
+    margin-left: 66%;
+    margin-top: -9px;
+    height: 23px;
+    float: inline-end;
+    justify-content: flex-end;
+}
+
+.increase{
+    color: rgb(59, 199, 176);
+}
+
+.decrease{
+    color: rgb(221, 87, 87);
+}
+
+.category{
+    margin-top: -15px;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-left: 15px;
+}
+
+.categoryI{
+    margin-top: -13px;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-left: 15px;
+    margin-bottom: 4%;
+}
+.rate{
+    margin-top: -5px;
+    font-size: 13px;
+    opacity: 0.8;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .rectangleContainer{
+    margin-left: -0.2%;
+    margin-right: 1%;
+    display: inline-block; 
+    margin-top: 6%;
+    margin-bottom: -3%;
+    width: 100%;
+     }
+     .rectangle{
+        width: 96%;
+        margin-right: 3%;
+        margin-bottom: 8%;
+        margin-left: 3%;
+    }
+    .orderProgress{
+        margin-left: 75%;
+    }
+    .orderProgressBlue{
+        margin-left: 70%;
+    }
+    .categoryI{
+        margin-bottom: 5%;
+    }
+}
+
+/*  */
+
+@media only screen and (min-width: 601px) {
+    .rectangleContainer{
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    width: 100%;
+     }
+     .rectangle{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .orderProgress{
+        margin-left: 70%;
+    }
+    .orderProgressBlue{
+        margin-left: 64%;
+    }
+} 
+
+
+@media only screen and (min-width: 800px){
+    .rectangleContainer{
+        margin-top: 0.5%;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .orderProgress{
+        margin-left: 73%;
+    }
+    .orderProgressBlue{
+        margin-left: 68%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .rectangleContainer{
+        margin-bottom: -2%;
+    }
+    .orderProgress{
+        margin-left: 75%;
+    }
+    .orderProgressBlue{
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .rectangleContainer{
+        width: 100%;
+        margin-bottom: 2px;
+        height: 100%;
+        margin-left: 1.5%;
+        display: flex; 
+    }
+    
+    body{
+        font-size: 14px;
+    }
+    .miniChartIconBlue{
+        margin-left: 85%;
+       display: flex;
+       margin-top: -7%;
+       margin-bottom: 8px;
+       font-size: 1rem;
+       color: rgb(43, 153, 226);
+    }
+    
+    .miniChartIconYellow{
+        margin-left: 85%;
+       display: flex;
+       margin-top: -7%;
+       margin-bottom: 8px;
+       color: rgb(216, 216, 55);
+       font-size: 1rem;
+    }
+    
+    
+    .lineChart{
+        margin-top: -29%;
+        display: block;
+        color: yellow;
+        width: 90%;
+        height: 25%;
+    }
+    
+    
+    
+    
+    .rectangle{
+        width: 23.2%;
+        margin-right: 1%;
+        margin-top: -8%;
+      height: 100%;
+      justify-content: center;
+      border-radius: 5px;
+      border: 2px solid whitesmoke;
+      background: white;
+    }
+    
+    .amount{
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    
+    .orderProgress{
+        margin-left: 73%;
+        margin-top: -9px;
+        height: 23px;
+        float: inline-end;
+        justify-content: flex-end;
+        /* font-weight: 600; */
+    }
+    
+    
+    
+    .orderProgressBlue{
+        margin-left: 66%;
+        margin-top: -9px;
+        height: 23px;
+        float: inline-end;
+        justify-content: flex-end;
+    }
+    
+    .increase{
+        color: rgb(59, 199, 176);
+    }
+    
+    .decrease{
+        color: rgb(221, 87, 87);
+    }
+    
+    .category{
+        margin-top: -15px;
+        font-size: 12px;
+        opacity: 0.5;
+        margin-left: 15px;
+    }
+    
+    .categoryI{
+        margin-top: -13px;
+        font-size: 12px;
+        opacity: 0.5;
+        margin-left: 15px;
+        margin-bottom: 4%;
+    }
+    .rate{
+        margin-top: -5px;
+        font-size: 13px;
+        opacity: 0.8;
+        margin-left: 15px;
+    }
+    
+    
+}
+

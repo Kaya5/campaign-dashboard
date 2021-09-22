@@ -1,0 +1,254 @@
+.container{
+   width: 96%;
+   height: 100%;
+}
+
+.firstRectangle{
+    width: 32%;
+    height: 80px;
+    background: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    margin-right: -1%;
+    margin-top: -7.5%;
+}
+
+
+.secondRectangle{
+    width: 32%;
+    height: 80px;
+    background: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-left: 1.8%;
+    display: flex;
+    margin-right: -1.5%;
+    margin-top: -7.5%;
+}
+
+.lastRectangle{
+    width: 30.5%;
+    height: 80px;
+    background: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-left: 2.08%;
+    display: flex;
+    margin-right: -1.5%;
+    margin-top: -7.5%;
+}
+
+.leftAlign{
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 50%;
+}
+
+.spanRight{
+    opacity: 0.5;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.expand{
+    margin-top: 22px;
+    margin-left: 5px;
+    opacity: 0.5;
+    font-size: 0.6rem;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        margin-left: 0.3%;
+     }
+  .firstRectangle{
+      margin-top: 1%;
+      display: inline-block;
+    height: 70px;
+    margin-left: 2.5%;
+    width: 96%;
+
+  }
+  .secondRectangle{
+    margin-top: 3px;
+    display: inline-block;
+    height: 70px;
+    margin-left: 2.5%;
+    width: 96%;
+  }
+  .lastRectangle{
+    margin-top: 2px;
+    display: inline-block;
+    height: 70px;
+    margin-left: -2px;
+    margin-left: 2.5%;
+    width: 96%;
+  }
+  .spanRight{
+    margin-left: 70%;
+    margin-top: -15px;
+    display: grid;
+}
+.expand{
+    margin-top: -13px;
+    margin-left: 90%;
+    opacity: 0.5;
+    font-size: 0.6rem;
+}
+}
+
+@media only screen and (min-width: 601px){
+        .container{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+            margin-top: 5.5%;
+            margin-left: 1.4%;
+         }
+      .firstRectangle{
+        margin-left: 0.5%;
+        width: 96.5%;
+        display: inline-block;
+    
+      }
+      .secondRectangle{
+        margin-top: 3px;
+        display: inline-block;
+        height: 70px;
+        margin-left: 0.5%;
+        width: 96.5%;
+      }
+      .lastRectangle{
+        margin-top: 2px;
+        display: inline-block;
+        height: 70px;
+        margin-left: -2px;
+        margin-left: 0.5%;
+        width: 96.5%;
+      }
+      .spanRight{
+        margin-left: 70%;
+        margin-top: -15px;
+        display: grid;
+    }
+    .expand{
+        margin-top: -13px;
+        margin-left: 90%;
+        opacity: 0.5;
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .container{
+        margin-top: 5.5%;
+        margin-left: 1.5%;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .container{
+        margin-left: 0.9%;
+        width: 100.5%;
+    }
+}
+
+@media only screen and (min-width: 980px){
+  .container{
+    margin-top: 6%;
+    width: 101%;
+  }
+  .firstRectangle{
+      width: 96.3%;
+  }
+  .secondRectangle{
+    width: 96.3%;
+}
+.lastRectangle{
+    width: 96.3%;
+}
+}
+
+
+@media only screen and (min-width: 1024px){
+    .container{
+        margin-top: 6.5%;
+        width: 100%;
+        display: inline-flex;
+        margin-left: 1%;
+     }
+     
+     .firstRectangle{ 
+        margin-bottom: -50px;
+         width: 32%;
+         height: 80px;
+         background: white;
+         border: 2px solid whitesmoke;
+         border-radius: 5px;
+         display: flex;
+         margin-right: -1%;
+         margin-top: -7.5%;
+     }
+     
+     
+     .secondRectangle{
+         width: 30%;
+         height: 80px;
+         background: white;
+         border: 2px solid whitesmoke;
+         border-radius: 5px;
+         margin-left: 1.8%;
+         display: flex;
+         margin-right: -1.5%;
+         margin-top: -7.5%;
+     }
+     
+     .lastRectangle{
+         width: 32.5%;
+         height: 80px;
+         background: white;
+         border: 2px solid whitesmoke;
+         border-radius: 5px;
+         margin-left: 2.08%;
+         display: flex;
+         margin-right: -1.5%;
+         margin-top: -7.5%;
+     }
+     
+     .leftAlign{
+         margin-left: 12px;
+         font-weight: 600;
+         margin-top: 20px;
+         margin-right: 45%;
+     }
+     
+     .spanRight{
+         opacity: 0.5;
+         margin-left: 5px;
+         margin-top: 20px;
+         font-size: 12px;
+     }
+     
+     .expand{
+         margin-top: 22px;
+         margin-left: 5px;
+         opacity: 0.5;
+         font-size: 0.6rem;
+     }
+}
+
+@media only screen and (min-width: 1199px){
+    .firstRectangle{
+        width: 32%;
+    }
+    .lastRectangle{
+        margin-left: 2.3%;
+    }
+}
+

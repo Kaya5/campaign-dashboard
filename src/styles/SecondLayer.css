@@ -1,0 +1,658 @@
+.secondLayer{
+    display: flex;
+    margin-top: 1%;
+    font-size: 14px;
+}
+
+body{
+    font-size: 14px;
+    width: 100%;
+}
+
+.leftBox{
+    margin-top: -2.5%;
+    width: 65%;
+    background: white;
+    margin-left: 1.5%;
+    display: block;
+    height: 380px;
+    border-radius: 5px;
+    border-radius: 5px solid whitesmoke;
+    font-size: 14px;
+}
+
+.rightBoxes{
+    width: 30.7%;
+    /* background: white; */
+    margin-left: 0.8%;
+}
+.topRightBox{
+    background: rgb(82, 109, 226);
+    height: 150px;
+    margin-bottom: 3%;
+    margin-top: -8.5%;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.campaignText{
+    margin-left: 5%;
+    padding-top: 16px;
+    color: white;
+}
+
+.campaignText span{
+        display: flex;
+        margin-top: 3px;
+        margin-bottom: 20%;
+}
+
+.campaignIcon{
+    margin-top: -24.3%;
+    margin-left: 15%;
+}
+
+.campaignButton{
+    margin-left: 5%;
+    color: white;
+    background: rgb(11, 196, 150);
+    height: 25%;
+    width: 33%;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    opacity: 1;
+    /* text-align: center; */
+    margin-bottom: 10%; 
+    font-family: inherit;
+}
+
+img{
+    height: 60%;
+    width: 45%;
+    display: flex;
+    position: inherit;
+    margin-left: 50%;
+    margin-top: -27%;
+}
+
+.chart{
+  margin-left: 5;
+}
+
+.salesAnalytics{
+    font-weight: 600;
+    margin-left: 1.5%;
+    padding-top: 15px;
+}
+
+.sortAnalytics{
+    margin-left: 90%;
+    margin-top: -20px;
+    font-weight: 600;
+}
+
+.spanAnalytics {
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-left: 96%;
+    opacity: 0.6;
+    margin-top: -1.7%;
+}
+
+.faIcon{
+    margin-top: -11px;
+    margin-left: 100%;
+    font-size: 0.5rem;
+}
+
+.incomeSalesRatio{
+    display: inline-flex;
+    text-orientation: sideways;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.income{
+    margin-right: 5%;
+  
+}
+
+.incomeSpan{
+    color: blue;
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.salesSpan{
+    margin-right: 7px;
+    font-size: 15px;
+    
+}
+
+.ratio{
+    margin-right: 5%;
+}
+
+.ratioSpan{
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.bottomRightBox{
+    background: white;
+    height: 220px;
+    margin-top: -1.7%;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.topSelling{
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+.sortSelling{
+    margin-left: 73%;
+    font-size: 13px;
+    margin-top: -20px;
+    font-weight: 600;
+}
+.sortYearly{
+    font-weight: 500;
+    font-size: 0.7rem;
+    opacity: 0.6;
+   
+}
+
+.bottomRightIcon{
+    margin-left: 85px;
+    margin-top: -14px;
+    font-size: 0.6rem;
+    opacity: 0.6;
+}
+
+.progressBar{
+ margin-top: 30px;
+}
+.progress{
+    margin-left: 22%;
+    /* margin-right: 10%; */
+    width: 70%;
+    display: flex;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.desktops{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.desktopItem{
+    margin-right: 10px;
+    color: #7588e6;
+}
+
+.iPhones{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.iPhoneItem{
+margin-right: 10px;
+color: #67b2e0;
+}
+
+.android{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.androidItem{
+    margin-right: 10px;
+    color: #63dbb1;
+}
+
+.tablets{
+margin-left: 15px;
+margin-bottom: 15px;
+}
+
+.tabletItem{
+    margin-right: 10px;
+    color: #f7c319;
+}
+
+.cables{
+    margin-left: 15px;
+}
+
+.cableItem{
+    margin-right: 10px;
+    color: #8f5ead;
+}
+
+
+
+                            /*  */
+
+
+@media only screen and (max-width: 600px) {
+    .secondLayer{
+        display: inline-block;
+        margin-top: -2%;
+        width: 97%;
+        margin-left: 4%;
+        margin-right: 3%;
+    }
+    .incomeSalesRatio{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        }
+
+    .ratio{
+        margin-left: 4%;
+    }
+
+    .leftBox{
+    display: inline-block;
+    width: 99%;
+    margin-left: -1%;
+    display: block;
+    height: 380px;
+    margin-bottom: 2px;
+    margin-top: -8px;
+    }
+    .rightBoxes{
+    display: inline-block;
+    width: 100%;
+    margin-top: 8.5%;
+    margin-left: -1.5%;
+    margin-right: 1%;
+    }
+    img{
+    height: 120px;
+    width: 170px;
+    display: flex;
+    position: relative;
+    margin-top: -140px;
+    margin-left: 55%;
+    }
+
+    .sortAnalytics{
+    margin-left: 70%;
+   
+    }
+
+    .spanAnalytics {   
+    margin-left: 82%;
+    margin-top: -2.9%;
+    }
+    .faIcon{
+    margin-top: -12px;
+    margin-left: 89%;
+    }
+
+
+    .topRightBox{
+    margin-top: -8%;
+    width: 99%;
+    }
+    
+.bottomRightBox{
+    height: 200px;
+    width: 99%;
+}
+.campaignIcon{
+    margin-top: -23.5% ;
+}
+}
+
+/*       */
+
+@media only screen and (min-width: 601px){
+    .secondLayer{
+        display: inline-block;
+        margin-top: -2%;
+        width: 97%;
+        margin-left: 4%;
+        margin-left: 3%;
+    }
+
+    .leftBox{
+    display: inline-block;
+    width: 99%;
+    margin-left: -1%;
+    display: block;
+    height: 380px;
+    margin-bottom: 2px;
+    margin-top: -8px;
+    }
+    .rightBoxes{
+    display: inline-block;
+    width: 100%;
+    margin-top: 9%;
+    margin-left: -1.5%;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    }
+    img{
+    height: 120px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    margin-top: -165px;
+    margin-left: 55%;
+    }
+
+    .sortAnalytics{
+    margin-left: 75%;
+    }
+
+    .spanAnalytics {   
+    margin-left: 85%;
+    margin-top: -2.7%;
+    }
+    .faIcon{
+    margin-top: -12px;
+    margin-left: 91%;
+    }
+
+    .incomeSalesRatio{
+    margin-top: 4%;
+    }
+    .ratio{
+        margin-left: 4%;
+    }
+
+.campaignIcon{
+margin-top: -23%;
+margin-left: 11%;
+}
+
+.campaignButton{
+margin-left: 5%;
+color: white;
+background: rgb(11, 196, 150);
+width: 28%;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .secondLayer{
+           margin-left: 3.5%;
+    }
+    .sortAnalytics{
+        margin-top: -3%;
+    }
+    .spanAnalytics {   
+        margin-top: -2.0%;
+        }
+        .campaignIcon{
+            margin-top: -22.6%;
+            margin-left: 10%;
+        }
+        img{
+            position: relative;
+            margin-top: -24%;
+            margin-left: 65%;
+        }
+        .progress{
+            margin-left: 17%;
+        }
+        
+}
+
+@media only screen and (min-width: 800px){
+    .secondLayer{
+        margin-left: 3%;
+        width: 97.5%;
+    }
+    .sortAnalytics{
+        margin-left: 78%;
+    }
+
+    .spanAnalytics {   
+        margin-top: -2%;
+        margin-left: 87%;
+        }
+img{
+    margin-top: -21%;
+    }
+ .campaignIcon{
+    margin-top: -21.9%;
+    margin-left: 8%;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .spanAnalytics {   
+        margin-top: -1.7%;
+        margin-left: 87%;
+        }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .secondLayer{
+        display: flex;
+        margin-top: 2%;
+        font-size: 14px;
+    }
+    .leftBox{
+        margin-top: -2.5%;
+        width: 65%;
+        background: white;
+        margin-left: -1.5%;
+        display: block;
+        height: 380px;
+        border-radius: 5px;
+        border-radius: 5px solid whitesmoke;
+        font-size: 14px;
+    }
+    .rightBoxes{
+        width: 33.6%;
+        margin-left: 0.8%;
+        margin-top: 2px;
+    }
+    .topRightBox{
+        background: rgb(91, 118, 238);
+        height: 146px;
+        margin-bottom: 3%;
+        margin-top: -8%;
+        border-radius: 5px;
+        border: 2px solid whitesmoke;
+    }
+    
+    .campaignText{
+        margin-left: 5%;
+        padding-top: 16px;
+        color: white;
+    }
+    
+    .campaignText span{
+            display: flex;
+            margin-top: 3px;
+            margin-bottom: 20%;
+    }
+    
+    .campaignIcon{
+        margin-top: -25.2%;
+        margin-left: 19%;
+    }
+    
+    .campaignButton{
+        margin-left: 5%;
+        color: white;
+        background: rgb(11, 196, 150);
+        height: 25%;
+        width: 39%;
+        border-radius: 3px;
+        text-decoration: none;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        opacity: 1;
+        margin-bottom: 10%; 
+        font-family: inherit;
+    }
+    
+    img{
+        height: 60%;
+        width: 45%;
+        /* display: flex; */
+        position: inherit;
+        margin-left: 51%;
+        margin-top: -33%;
+    }
+    
+    .chart{
+      margin-left: 5;
+    }
+    
+    .salesAnalytics{
+        font-weight: 600;
+        margin-left: 1.5%;
+        padding-top: 15px;
+    }
+    
+    .sortAnalytics{
+        margin-left: 85%;
+        margin-top: -20px;
+        font-weight: 600;
+    }
+    
+    .spanAnalytics {
+        font-weight: 500;
+        font-size: 0.7rem;
+        margin-left: 94%;
+        margin-top: -2.2%;
+    }
+    
+    .faIcon{
+        margin-top: -11px;
+        margin-left: 100%;
+        font-size: 0.5rem;
+    }
+    
+    .incomeSalesRatio{
+        display: inline-flex;
+        text-orientation: sideways;
+        margin-left: 3%;
+        margin-top: 2%;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    
+    .income{
+        margin-right: 5%;
+        
+    }
+    
+    .incomeSpan{
+        color: blue;
+        margin-right: 7px;
+        font-size: 15px;
+        
+    }
+    
+    .sales{
+        margin-right: 5%;
+    }
+    
+    .salesSpan{
+        margin-right: 7px;
+        font-size: 15px;
+        
+    }
+    
+    .ratio{
+        margin-right: 5%;
+        margin-left: 1.5%;
+    }
+    
+    .ratioSpan{
+        margin-right: 7px;
+        font-size: 15px;    
+    }
+    
+    .bottomRightBox{
+        background: white;
+        height: 220px;
+        margin-top: -1.7%;
+        border-radius: 5px;
+        border: 2px solid whitesmoke;
+    }
+    
+    .topSelling{
+        display: flex;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 4%;
+    }
+    
+    .sortSelling{
+        margin-left: 68%;
+        font-size: 13px;
+        margin-top: -20px;
+        font-weight: 600;
+    }
+    .sortYearly{
+        font-weight: 500;
+        font-size: 0.7rem;
+        opacity: 0.6;
+    }
+    
+    .bottomRightIcon{
+        margin-left: 85px;
+        margin-top: -14px;
+        font-size: 0.6rem;
+        opacity: 0.6;
+    }
+    
+    .progress{
+        margin-left: 27%;
+        margin-top: -9.5px;
+    }
+}
+
+    @media only screen and (min-width: 1200px) {
+
+        .secondLayer{
+            display: flex;
+            margin-top: -7%;
+            font-size: 14px;
+            margin-left: 3%;
+        }
+
+        .campaignIcon{
+            margin-top: -24%;
+            margin-left: 15%;
+        }
+        img{
+            height: 65%;
+            width: 45%;
+            display: flex;
+            position: inherit;
+            margin-left: 50%;
+            margin-top: -29%;
+        }
+        .progress{
+            margin-left: 22%;
+        }
+    }
+
+    @media only screen and (min-width: 1400px){
+        .spanAnalytics{
+            margin-top: -1.7%;
+        }
+    }

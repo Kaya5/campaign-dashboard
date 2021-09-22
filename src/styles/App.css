@@ -1,0 +1,62 @@
+body{
+  height: 90%;
+  font-family: 'IBM Plex Sans', sans-serif;  
+  background: whitesmoke;
+  min-width: 467px;
+  overflow-x: hidden;
+}
+
+main{
+  margin-top: 10%;
+  display: block;
+  margin-right: -25px;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  margin-left: -1.3%;
+}
+
+@media only screen and (max-width: 600px){
+main{
+  display: block;
+  margin-right: -25px;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  margin-left: -1.3%;
+  margin-top: 10%;
+}
+
+}
+
+@media only screen and (min-width: 601px){
+main{
+  margin-left: -0.15%;
+  overflow-x: hidden;
+}
+}
+
+@media only screen and (min-width: 800px){
+  main{
+    margin-left: -0.5%;
+    overflow-x: hidden;
+  }
+  }
+
+  @media only screen and (min-width: 1000px){
+    main{
+      margin-left: 0.2%;
+      overflow-x: hidden;
+      margin-top: 6%;
+    }
+    }
+
+    @media only screen and (min-width: 1200px){
+      body{
+        overflow-y: auto;
+        height: 90%;
+      }
+      main{
+        margin-top: 4.5%;
+      }
+    }

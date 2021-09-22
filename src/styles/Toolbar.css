@@ -1,0 +1,115 @@
+.toolbar{
+    position: absolute;
+    width: 100%;
+    min-width: 467px;
+    top: 0;
+    left: 0;
+    border: 2px solid rgb(231, 228, 228);
+    height: 61px;
+    background-color: white;
+}
+
+.toolbarItem{
+   display: flex;
+   margin-left: 70%;
+   align-items: center;
+   margin-top: -35px;
+}
+
+.rightIcons{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+
+.avatar{
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 1px;
+    border-radius: 100%;
+    width: 38px;
+    height: 35px;
+}
+
+.chevronDown{
+    cursor: pointer;
+}
+
+.Maria{
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 0.7);
+    margin-top: 3%;
+}
+
+.chevronDown{
+    font-size: 8.5px;
+    margin-top: 12px;
+    margin-right: 24px;
+    margin-left: 1px;
+}
+
+.flag{
+    font-size: 1.7rem;
+    margin-right: 20px;
+    margin-top: 8.5px;
+}
+
+.notification{
+    background: rgb(233, 36, 36);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    height: 12px;
+    justify-content: center;
+    font-size: 0.5rem;
+    margin-left: -27px;
+    margin-right: 10px;
+    margin-top: -5px;
+    width: 16px;
+}
+
+
+@media only screen and (max-width: 630px) {
+    .toolbarItem{
+        margin-left: 30%;
+     }
+}
+
+@media only screen and (min-width: 631px) {
+    .toolbarItem{
+        margin-left: 50%;
+     }
+}
+
+@media only screen and (min-width: 924px) {
+    .toolbarItem{
+        margin-left: 60%;
+     }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .toolbarItem{
+        margin-left: 63%;
+     }
+}
+
+@media only screen and (min-width: 1200px) {
+    .toolbarItem{
+        margin-left: 73%;
+     }
+}
+
+@media only screen and (min-width: 1400px) {
+    .toolbarItem{
+        margin-left: 75%;
+     }
+}
+
