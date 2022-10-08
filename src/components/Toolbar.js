@@ -1,6 +1,6 @@
 import React from 'react';
 import DrawerToggle from '../components/DrawerToggle';
-import maria from '../assets/maria.jpg';
+import kaya from '../assets/kaya.png';
 import '../styles/Toolbar.css';
 
 const Toolbar = (props) => (
@@ -21,8 +21,8 @@ const Toolbar = (props) => (
           <i class="far fa-bell"></i>
         </div>
         <button className="notification">3</button>
-          <img src={maria} alt="rmaria" className="avatar" />
-        <div className="Maria">Maria</div>
+          <img src={kaya} alt="kay" className="avatar" />
+        <div className="Kay">Kunmilade</div>
         <div className="chevronDown">
           <i class="far fa-chevron-down"></i>
         </div>
