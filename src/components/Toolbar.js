@@ -21,7 +21,7 @@ const Toolbar = (props) => (
           <i class="far fa-bell"></i>
         </div>
         <button className="notification">3</button>
-          <img src={kaya} alt="kay" className="avatar" />
+          <img src={kaya} alt="" className="avatar" />
         <div className="Kay">Kunmilade</div>
         <div className="chevronDown">
           <i class="far fa-chevron-down"></i>
