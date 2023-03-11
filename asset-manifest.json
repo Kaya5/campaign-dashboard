@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/campaign-dashboard/static/css/main.40bd6b1e.chunk.css",
-    "main.js": "/campaign-dashboard/static/js/main.d015a2c8.chunk.js",
-    "main.js.map": "/campaign-dashboard/static/js/main.d015a2c8.chunk.js.map",
+    "main.js": "/campaign-dashboard/static/js/main.84c2e137.chunk.js",
+    "main.js.map": "/campaign-dashboard/static/js/main.84c2e137.chunk.js.map",
     "runtime-main.js": "/campaign-dashboard/static/js/runtime-main.8b7ae6f2.js",
     "runtime-main.js.map": "/campaign-dashboard/static/js/runtime-main.8b7ae6f2.js.map",
     "static/js/2.8a0fe952.chunk.js": "/campaign-dashboard/static/js/2.8a0fe952.chunk.js",
@@ -12,12 +12,13 @@
     "index.html": "/campaign-dashboard/index.html",
     "static/css/main.40bd6b1e.chunk.css.map": "/campaign-dashboard/static/css/main.40bd6b1e.chunk.css.map",
     "static/js/2.8a0fe952.chunk.js.LICENSE.txt": "/campaign-dashboard/static/js/2.8a0fe952.chunk.js.LICENSE.txt",
+    "static/media/girl.8a97acd0.jpeg": "/campaign-dashboard/static/media/girl.8a97acd0.jpeg",
     "static/media/newimage.27d3a2c2.png": "/campaign-dashboard/static/media/newimage.27d3a2c2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8b7ae6f2.js",
     "static/js/2.8a0fe952.chunk.js",
     "static/css/main.40bd6b1e.chunk.css",
-    "static/js/main.d015a2c8.chunk.js"
+    "static/js/main.84c2e137.chunk.js"
   ]
 }
